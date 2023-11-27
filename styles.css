@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "nord-bold";
+    src: url('./Norse-Bold.otf');
+}
+body{
+    overflow: hidden;
+    margin:0;
+    padding:0;
+    display: flex;
+
+}
+.left_panel,.right_panel{
+    position: relative;
+    width: 50vw;
+    height: 100vh;
+}
+img{
+    position: relative;
+    height: inherit;
+    width: inherit;  
+}
+.logo_background{
+    height: 18vh;
+    background-color:rgb(0,0,0,0.4);
+    color:aliceblue;
+    font-family:"nord-bold";
+    font-size:15vh;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top:10%;
+    width: inherit;
+
+}
+.img_caption{
+    color:aliceblue;
+    position: absolute;
+    top:97%;
+    width: 100%;
+    text-align: center;
+}
+.left_panel>a{
+    color:aliceblue;
+}
+.giberish{
+    background-color: rgb(240, 240, 252);
+    padding:60px 40px 40px 40px ;
+    font-size: 22px;
+    font-weight: bold;
+}
+form{
+    
+    display: flex;
+    height: 30vh;
+    padding-left: 10px;
+    
+}
+.right_panel>.line1{
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left:30px;
+    padding-bottom: 0px;
+}
+.form_left,.form_right{
+    margin: 20px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+.form_option{
+    display: flex;
+    flex-direction: column;
+}
+.lower_part{
+    background-color: rgb(240, 240, 252);
+    height:30vh
+}
+button{
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    background-color: darkolivegreen;
+    margin: 20px 20px 20px 30px;
+    color: aliceblue;
+    
+}
+.damn{
+    border: 1px solid #999 !important; /* Set the border color */
+}
+input:required {
+    background-color: #f5f5f5; /* Set the background color */
+}
+input:invalid{
+    border: 3px solid red;
+}
+.old_account{
+    margin: 10px 20px 20px 30px;
+}
+span{
+    font-size:12px ;
+     
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>odin_sign_up</title>
+</head>
+
+<body>
+    <div class="left_panel">
+        <img
+            src="https://images.unsplash.com/photo-1700769025506-6c3dcb9ec9b7?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <div class="logo_background">WATER
+        </div>
+        <div class="img_caption">Photo by<a href="https://unsplash.com/@piermanuele_sbern"> piermanuele_sbern</a> on <a
+                href="https://unsplash.com/">Unsplash</a></div>
+    </div>
+    <div class="right_panel">
+        <div class="giberish">
+            <p class="line1">This is not a real online service! You know you need something<br> like this in your life
+                to
+                help you realize your deepest dreams.<br>Sign up now to get started.</p>
+            <p class="line2">You know you want to.</p>
+        </div>
+        <div class="line1">Let's do this!</div>
+        <form id="sign_up" action="" method="post">
+            <div class="form_left">
+                <div class="form_option">
+                    <label for="first_name">FIRST NAME</label>
+                    <input class="damn" type="text" id="first_name" minlength="1" required>
+                </div>
+                <div class="form_option">
+                    <label for="email*">EMAIL</label>
+                    <input class="damn" type="email" id="email" required>
+                </div>
+                <div class="form_option">
+                    <label for="password">PASSWORD</label>
+                    <input class="damn" type="password" id="password" required>
+                    <span class="warning"></span>
+                </div>
+            </div>
+            <div class="form_right">
+                <div class="form_option">
+                    <label for="last_name">LAST NAME</label>
+                    <input type="text" id="last_name" minlength="1">
+
+                </div>
+                <div class="form_option">
+                    <label for="phone_number">PHONE NUMBER</label>
+                    <input class="damn" type="tel" id="phone_number" pattern="\+[0-9]{2} [0-9]{10}" placeholder="+91 9977665544" required>
+                </div>
+                <div class="form_option">
+                    <label for="confirm_password">CONFIRM PASSWORD</label>
+                    <input class="damn" type="password" id="confirm_password" required>
+                </div>
+            </div>
+        </form>
+        <div class="lower_part">
+
+            <button type="submit" form="sign_up">Create Account</button>
+            <div class="old_account">Already have an Account?<a href="google.com">Log in</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
